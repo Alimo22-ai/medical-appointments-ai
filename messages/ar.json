@@ -1,0 +1,219 @@
+{
+  "navigation": {
+    "dashboard": "لوحة التحكم",
+    "appointments": "المواعيد",
+    "labTests": "التحاليل المخبرية",
+    "medicalHistory": "التاريخ الطبي",
+    "doctors": "الأطباء",
+    "medicalCenters": "المراكز الطبية",
+    "notifications": "الإشعارات",
+    "profile": "الملف الشخصي",
+    "settings": "الإعدادات",
+    "signOut": "تسجيل الخروج"
+  },
+  "auth": {
+    "signIn": "تسجيل الدخول",
+    "signUp": "إنشاء حساب",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "name": "الاسم الكامل",
+    "phone": "رقم الهاتف",
+    "forgotPassword": "نسيت كلمة المرور؟",
+    "createAccount": "إنشاء حساب",
+    "alreadyHaveAccount": "لديك حساب بالفعل؟",
+    "dontHaveAccount": "ليس لديك حساب؟",
+    "signInWith": "تسجيل الدخول باستخدام {provider}",
+    "signUpWith": "إنشاء حساب باستخدام {provider}"
+  },
+  "dashboard": {
+    "welcome": "مرحباً بعودتك، {name}",
+    "upcomingAppointments": "المواعيد القادمة",
+    "pendingLabTests": "التحاليل المعلقة",
+    "recentActivity": "النشاط الأخير",
+    "quickActions": "إجراءات سريعة",
+    "bookAppointment": "حجز موعد",
+    "scheduleLabTest": "جدولة تحليل",
+    "viewHistory": "عرض التاريخ الطبي",
+    "stats": {
+      "totalAppointments": "إجمالي المواعيد",
+      "completedTests": "التحاليل المكتملة",
+      "activePrescriptions": "الوصفات النشطة",
+      "medicalRecords": "السجلات الطبية"
+    }
+  },
+  "appointments": {
+    "title": "المواعيد",
+    "book": "حجز موعد جديد",
+    "upcoming": "القادمة",
+    "past": "السابقة",
+    "cancelled": "الملغية",
+    "status": {
+      "scheduled": "مجدول",
+      "confirmed": "مؤكد",
+      "inProgress": "قيد التنفيذ",
+      "completed": "مكتمل",
+      "cancelled": "ملغي",
+      "noShow": "لم يحضر"
+    },
+    "form": {
+      "selectDoctor": "اختر الطبيب",
+      "selectCenter": "اختر المركز الطبي",
+      "selectDate": "اختر التاريخ",
+      "selectTime": "اختر الوقت",
+      "reason": "سبب الزيارة",
+      "symptoms": "الأعراض",
+      "notes": "ملاحظات إضافية",
+      "submit": "حجز الموعد",
+      "cancel": "إلغاء الموعد",
+      "reschedule": "إعادة جدولة"
+    }
+  },
+  "labTests": {
+    "title": "التحاليل المخبرية",
+    "schedule": "جدولة تحليل جديد",
+    "pending": "معلق",
+    "completed": "مكتمل",
+    "results": "النتائج",
+    "downloadResults": "تحميل النتائج",
+    "status": {
+      "ordered": "مطلوب",
+      "sampleCollected": "تم جمع العينة",
+      "inProgress": "قيد التنفيذ",
+      "completed": "مكتمل",
+      "cancelled": "ملغي"
+    },
+    "form": {
+      "testType": "نوع التحليل",
+      "testName": "اسم التحليل",
+      "description": "الوصف",
+      "instructions": "تعليمات خاصة",
+      "preferredDate": "التاريخ المفضل",
+      "fastingRequired": "الصيام مطلوب",
+      "submit": "جدولة التحليل"
+    }
+  },
+  "medicalHistory": {
+    "title": "التاريخ الطبي",
+    "timeline": "عرض الجدول الزمني",
+    "categories": "الفئات",
+    "search": "البحث في السجلات الطبية...",
+    "filter": {
+      "all": "جميع السجلات",
+      "appointments": "المواعيد",
+      "labTests": "التحاليل المخبرية",
+      "medications": "الأدوية",
+      "allergies": "الحساسية",
+      "surgeries": "العمليات الجراحية"
+    },
+    "addRecord": "إضافة سجل",
+    "viewDetails": "عرض التفاصيل",
+    "downloadAttachment": "تحميل المرفق"
+  },
+  "doctors": {
+    "title": "الأطباء",
+    "search": "البحث عن أطباء...",
+    "filter": {
+      "specialty": "التخصص",
+      "location": "الموقع",
+      "rating": "التقييم",
+      "availability": "التوفر"
+    },
+    "profile": {
+      "experience": "سنوات الخبرة",
+      "education": "التعليم",
+      "certifications": "الشهادات",
+      "languages": "اللغات",
+      "consultationFee": "رسوم الاستشارة",
+      "rating": "التقييم",
+      "reviews": "المراجعات",
+      "availability": "التوفر",
+      "bookAppointment": "حجز موعد"
+    }
+  },
+  "medicalCenters": {
+    "title": "المراكز الطبية",
+    "search": "البحث عن مراكز طبية...",
+    "nearMe": "بالقرب مني",
+    "details": {
+      "address": "العنوان",
+      "phone": "الهاتف",
+      "email": "البريد الإلكتروني",
+      "website": "الموقع الإلكتروني",
+      "operatingHours": "ساعات العمل",
+      "facilities": "المرافق",
+      "directions": "الحصول على الاتجاهات",
+      "rating": "التقييم",
+      "reviews": "المراجعات"
+    }
+  },
+  "notifications": {
+    "title": "الإشعارات",
+    "markAllRead": "تحديد الكل كمقروء",
+    "clear": "مسح",
+    "types": {
+      "appointmentReminder": "تذكير بالموعد",
+      "labResultReady": "نتائج التحليل جاهزة",
+      "appointmentConfirmed": "تأكيد الموعد",
+      "appointmentCancelled": "إلغاء الموعد",
+      "medicationReminder": "تذكير بالدواء"
+    }
+  },
+  "profile": {
+    "title": "الملف الشخصي",
+    "personalInfo": "المعلومات الشخصية",
+    "contactInfo": "معلومات الاتصال",
+    "medicalInfo": "المعلومات الطبية",
+    "preferences": "التفضيلات",
+    "edit": "تحرير الملف الشخصي",
+    "save": "حفظ التغييرات",
+    "cancel": "إلغاء",
+    "fields": {
+      "name": "الاسم الكامل",
+      "email": "البريد الإلكتروني",
+      "phone": "رقم الهاتف",
+      "dateOfBirth": "تاريخ الميلاد",
+      "gender": "الجنس",
+      "address": "العنوان",
+      "emergencyContact": "جهة الاتصال الطارئة",
+      "bloodType": "فصيلة الدم",
+      "allergies": "الحساسية",
+      "chronicConditions": "الحالات المزمنة",
+      "currentMedications": "الأدوية الحالية",
+      "language": "اللغة المفضلة",
+      "notifications": "تفضيلات الإشعارات"
+    }
+  },
+  "common": {
+    "loading": "جاري التحميل...",
+    "error": "حدث خطأ",
+    "success": "نجح",
+    "confirm": "تأكيد",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "edit": "تحرير",
+    "delete": "حذف",
+    "view": "عرض",
+    "download": "تحميل",
+    "upload": "رفع",
+    "search": "بحث",
+    "filter": "تصفية",
+    "sort": "ترتيب",
+    "date": "التاريخ",
+    "time": "الوقت",
+    "status": "الحالة",
+    "actions": "الإجراءات",
+    "noData": "لا توجد بيانات متاحة",
+    "selectOption": "اختر خياراً",
+    "required": "هذا الحقل مطلوب",
+    "invalidEmail": "يرجى إدخال بريد إلكتروني صحيح",
+    "invalidPhone": "يرجى إدخال رقم هاتف صحيح",
+    "passwordTooShort": "يجب أن تكون كلمة المرور 8 أحرف على الأقل",
+    "passwordsDoNotMatch": "كلمات المرور غير متطابقة"
+  },
+  "reminders": {
+    "appointment": "لديك موعد مع د. {doctorName} في {time}",
+    "labTest": "نتائج التحليل المخبري جاهزة",
+    "medication": "حان وقت تناول الدواء: {medicationName}"
+  }
+}
