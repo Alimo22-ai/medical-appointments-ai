@@ -1,0 +1,219 @@
+{
+  "navigation": {
+    "dashboard": "Dashboard",
+    "appointments": "Appointments",
+    "labTests": "Lab Tests",
+    "medicalHistory": "Medical History",
+    "doctors": "Doctors",
+    "medicalCenters": "Medical Centers",
+    "notifications": "Notifications",
+    "profile": "Profile",
+    "settings": "Settings",
+    "signOut": "Sign Out"
+  },
+  "auth": {
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "name": "Full Name",
+    "phone": "Phone Number",
+    "forgotPassword": "Forgot Password?",
+    "createAccount": "Create Account",
+    "alreadyHaveAccount": "Already have an account?",
+    "dontHaveAccount": "Don't have an account?",
+    "signInWith": "Sign in with {provider}",
+    "signUpWith": "Sign up with {provider}"
+  },
+  "dashboard": {
+    "welcome": "Welcome back, {name}",
+    "upcomingAppointments": "Upcoming Appointments",
+    "pendingLabTests": "Pending Lab Tests",
+    "recentActivity": "Recent Activity",
+    "quickActions": "Quick Actions",
+    "bookAppointment": "Book Appointment",
+    "scheduleLabTest": "Schedule Lab Test",
+    "viewHistory": "View Medical History",
+    "stats": {
+      "totalAppointments": "Total Appointments",
+      "completedTests": "Completed Tests",
+      "activePrescriptions": "Active Prescriptions",
+      "medicalRecords": "Medical Records"
+    }
+  },
+  "appointments": {
+    "title": "Appointments",
+    "book": "Book New Appointment",
+    "upcoming": "Upcoming",
+    "past": "Past",
+    "cancelled": "Cancelled",
+    "status": {
+      "scheduled": "Scheduled",
+      "confirmed": "Confirmed",
+      "inProgress": "In Progress",
+      "completed": "Completed",
+      "cancelled": "Cancelled",
+      "noShow": "No Show"
+    },
+    "form": {
+      "selectDoctor": "Select Doctor",
+      "selectCenter": "Select Medical Center",
+      "selectDate": "Select Date",
+      "selectTime": "Select Time",
+      "reason": "Reason for Visit",
+      "symptoms": "Symptoms",
+      "notes": "Additional Notes",
+      "submit": "Book Appointment",
+      "cancel": "Cancel Appointment",
+      "reschedule": "Reschedule"
+    }
+  },
+  "labTests": {
+    "title": "Lab Tests",
+    "schedule": "Schedule New Test",
+    "pending": "Pending",
+    "completed": "Completed",
+    "results": "Results",
+    "downloadResults": "Download Results",
+    "status": {
+      "ordered": "Ordered",
+      "sampleCollected": "Sample Collected",
+      "inProgress": "In Progress",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    },
+    "form": {
+      "testType": "Test Type",
+      "testName": "Test Name",
+      "description": "Description",
+      "instructions": "Special Instructions",
+      "preferredDate": "Preferred Date",
+      "fastingRequired": "Fasting Required",
+      "submit": "Schedule Test"
+    }
+  },
+  "medicalHistory": {
+    "title": "Medical History",
+    "timeline": "Timeline View",
+    "categories": "Categories",
+    "search": "Search medical records...",
+    "filter": {
+      "all": "All Records",
+      "appointments": "Appointments",
+      "labTests": "Lab Tests",
+      "medications": "Medications",
+      "allergies": "Allergies",
+      "surgeries": "Surgeries"
+    },
+    "addRecord": "Add Record",
+    "viewDetails": "View Details",
+    "downloadAttachment": "Download Attachment"
+  },
+  "doctors": {
+    "title": "Doctors",
+    "search": "Search doctors...",
+    "filter": {
+      "specialty": "Specialty",
+      "location": "Location",
+      "rating": "Rating",
+      "availability": "Availability"
+    },
+    "profile": {
+      "experience": "Years of Experience",
+      "education": "Education",
+      "certifications": "Certifications",
+      "languages": "Languages",
+      "consultationFee": "Consultation Fee",
+      "rating": "Rating",
+      "reviews": "Reviews",
+      "availability": "Availability",
+      "bookAppointment": "Book Appointment"
+    }
+  },
+  "medicalCenters": {
+    "title": "Medical Centers",
+    "search": "Search medical centers...",
+    "nearMe": "Near Me",
+    "details": {
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "website": "Website",
+      "operatingHours": "Operating Hours",
+      "facilities": "Facilities",
+      "directions": "Get Directions",
+      "rating": "Rating",
+      "reviews": "Reviews"
+    }
+  },
+  "notifications": {
+    "title": "Notifications",
+    "markAllRead": "Mark All as Read",
+    "clear": "Clear",
+    "types": {
+      "appointmentReminder": "Appointment Reminder",
+      "labResultReady": "Lab Result Ready",
+      "appointmentConfirmed": "Appointment Confirmed",
+      "appointmentCancelled": "Appointment Cancelled",
+      "medicationReminder": "Medication Reminder"
+    }
+  },
+  "profile": {
+    "title": "Profile",
+    "personalInfo": "Personal Information",
+    "contactInfo": "Contact Information",
+    "medicalInfo": "Medical Information",
+    "preferences": "Preferences",
+    "edit": "Edit Profile",
+    "save": "Save Changes",
+    "cancel": "Cancel",
+    "fields": {
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "dateOfBirth": "Date of Birth",
+      "gender": "Gender",
+      "address": "Address",
+      "emergencyContact": "Emergency Contact",
+      "bloodType": "Blood Type",
+      "allergies": "Allergies",
+      "chronicConditions": "Chronic Conditions",
+      "currentMedications": "Current Medications",
+      "language": "Preferred Language",
+      "notifications": "Notification Preferences"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "view": "View",
+    "download": "Download",
+    "upload": "Upload",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "date": "Date",
+    "time": "Time",
+    "status": "Status",
+    "actions": "Actions",
+    "noData": "No data available",
+    "selectOption": "Select an option",
+    "required": "This field is required",
+    "invalidEmail": "Please enter a valid email",
+    "invalidPhone": "Please enter a valid phone number",
+    "passwordTooShort": "Password must be at least 8 characters",
+    "passwordsDoNotMatch": "Passwords do not match"
+  },
+  "reminders": {
+    "appointment": "You have an appointment with Dr. {doctorName} at {time}",
+    "labTest": "Your lab test results are ready",
+    "medication": "Time to take your medication: {medicationName}"
+  }
+}
